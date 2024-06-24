@@ -1,0 +1,40 @@
+.logo
+{
+    border-radius: 50%;
+    border: 2px white solid;
+    height:80px
+}
+
+header #lang
+{
+    font-size: 15px;
+    color: rgb(91, 90, 90);
+}
+.navbar{
+    background-color: #38b000;
+}
+.nav a:hover {
+  color: #bdc8af;
+  text-shadow: 2px 2px 5px yellowgreen;
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: url('./cpu_dashboard_bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+* {box-sizing: border-box;}/* Button used to open the chat form - fixed at the bottom of the page */
+
+#root {
+    overflow-y: auto;
+}
+
+button a
+{
+  text-decoration: none;
+  color: green;
+}
